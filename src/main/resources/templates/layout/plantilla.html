@@ -7,11 +7,11 @@
     </head>
     <body>
         <header th:fragment="header">
-            <h1>Control de Clientes</h1>
+            <h1 th:text="#{plantilla.titulo}">Titulo</h1>
         </header>
         
         <footer th:fragment="footer">
-            <p>Derechos Reservados <a href="http://www.globalmentoring.com.mx" target="_blank">GlobalMentoring.com.mx</a></p>
+            <p> [[#{plantilla.pie-pagina}]] <a href="http://www.globalmentoring.com.mx" target="_blank">GlobalMentoring.com.mx</a></p>
         </footer>
         
     </body>
